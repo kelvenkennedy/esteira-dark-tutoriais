@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Esteira Dark: guia de instalação, criação do primeiro vídeo e acesso ao produto.">
+<meta name="theme-color" content="#080a12"><title>Esteira Dark — Central de Início</title>
+<style>
+:root{color-scheme:dark;--bg:#080a12;--panel:#111625;--edge:#283248;--txt:#f1f2f9;--muted:#a3abc0;--accent:#8f82fa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 80% 35% at 75% 0%,#24203f 0%,transparent 75%),var(--bg);font:16px/1.7 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--txt)}
+a{color:inherit}header{position:sticky;top:0;z-index:5;background:#080a12ee;border-bottom:1px solid #23283a;backdrop-filter:blur(12px)}
+nav{max-width:1150px;margin:auto;padding:12px 24px;display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.logo{font-weight:900;font-size:18px;letter-spacing:.05em;text-decoration:none}.logo b{color:var(--accent)}
+.navlinks{display:flex;gap:18px;flex-wrap:wrap}.navlinks a{font-size:13px;color:var(--muted);text-decoration:none}.navlinks a:hover{color:white}
+main{max-width:1150px;margin:auto;padding:0 24px}.hero{min-height:490px;padding:85px 0 60px;display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:50px}
+.pill{display:inline-block;padding:4px 12px;border-radius:100px;border:1px solid #58517f;color:#c6bafa;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+h1{font-size:clamp(38px,5vw,65px);line-height:1.09;letter-spacing:-.045em;margin:24px 0}h1 em{font-style:normal;color:#a295ff}
+p{color:var(--muted);margin:12px 0 24px}.lead{font-size:19px;max-width:610px}
+.btn{display:inline-block;text-decoration:none;cursor:pointer;border:0;border-radius:10px;background:#8d7ef5;color:#080913;padding:13px 20px;font:700 14px system-ui}
+.btn:hover{background:#b6acff}.btn.alt{background:#1b2030;color:#eee;border:1px solid #343b53}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.mock{border:1px solid #4b446f;border-radius:18px;padding:25px;background:linear-gradient(155deg,#1b1d32,#0b101b);box-shadow:0 35px 90px #0008;transform:rotate(2deg)}
+.mock small{font-size:11px;color:#aaa;letter-spacing:.2em}.screen{margin-top:15px;min-height:180px;display:grid;place-items:center;border-radius:12px;background:radial-gradient(circle,#30254d 0%,#0c1120 70%)}
+.screen strong{font-size:88px;letter-spacing:-.12em;color:#bbb0ff}.bars{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:14px}.bars span{font-size:10px;text-align:center;background:#20263b;padding:9px 1px;border-radius:8px}
+section{padding:65px 0;border-top:1px solid #252b3e}h2{font-size:clamp(26px,3vw,42px);letter-spacing:-.035em;line-height:1.2;margin:12px 0 22px}
+.eyebrow{font:800 11px system-ui;letter-spacing:.16em;color:#9990f9;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:23px;background:linear-gradient(150deg,#171b2b,#0e1220);border:1px solid var(--edge);border-radius:14px}
+.card h3{margin:0 0 7px;font-size:18px}.card p{margin:0;font-size:14px}.num{display:inline-block;color:#aaa0ff;font-size:12px;margin-bottom:22px}
+.box{border:1px solid var(--edge);background:#111625;border-radius:14px;padding:25px;margin:18px 0}
+.box h3{margin-top:0}code,pre{font:13px/1.6 ui-monospace,Consolas,monospace}code{color:#c6c0fa;overflow-wrap:anywhere}
+pre{overflow-x:auto;white-space:pre-wrap;background:#080d18;border:1px solid #303953;padding:16px;border-radius:10px;color:#dbd9ff}
+.copy{border:1px solid #4b4d73;background:#29273e;color:white;cursor:pointer;border-radius:8px;padding:8px 14px}
+details{border:1px solid var(--edge);border-radius:12px;padding:16px 20px;background:#101524;margin:10px 0}summary{cursor:pointer;font-weight:700}
+.warning{border-left:3px solid #aa9eff;background:#171426;padding:13px 18px;color:#c6c1d6;border-radius:5px}
+footer{margin-top:40px;padding:30px 24px;border-top:1px solid var(--edge);text-align:center;color:var(--muted);font-size:12px}
+@media(max-width:750px){.hero{grid-template-columns:1fr;padding-top:48px;gap:20px}.grid{grid-template-columns:1fr}.mock{transform:none}nav{align-items:flex-start}.navlinks{gap:11px}}
+</style>
+</head>
+<body>
+<header><nav><a class="logo" href="#inicio">K &nbsp; ESTEIRA <b>DARK</b></a><div class="navlinks"><a href="#como-funciona">Como funciona</a><a href="#comecar">Começar</a><a href="#instalacao">Instalação</a><a href="#acesso">Meu acesso</a><a href="#ajuda">Ajuda</a></div></nav></header>
+<main>
+<div class="hero" id="inicio">
+<div><span class="pill">Guia oficial · do zero ao primeiro vídeo</span><h1>Transforme ideias em <em>vídeos prontos.</em> Sem complicação.</h1><p class="lead">Aprenda a configurar a Esteira Dark e criar vídeos com roteiro, voz, legendas e edição automatizada, mesmo sem entender de programação.</p><div class="actions"><a class="btn" href="#comecar">Começar agora ↗</a><a class="btn alt" href="#como-funciona">Entenda o processo</a></div></div>
+<div class="mock"><small>ESTEIRA DARK / ESTÚDIO</small><div class="screen"><strong>K.</strong></div><div class="bars"><span>01 ROTEIRO</span><span>02 VOZ</span><span>03 LEGENDAS</span><span>04 VÍDEO</span></div></div>
+</div>
+<section id="como-funciona"><span class="eyebrow">01 / O sistema</span><h2>Você não precisa ser editor. Precisa de um processo.</h2><div class="grid">
+<div class="card"><span class="num">01 / INTELIGÊNCIA ARTIFICIAL</span><h3>Roteiro</h3><p>Ollama e Qwen geram textos em português para revisão.</p></div>
+<div class="card"><span class="num">02 / ÁUDIO</span><h3>Narração e legendas</h3><p>Piper cria a voz e faster-whisper transcreve para legendas.</p></div>
+<div class="card"><span class="num">03 / MONTAGEM</span><h3>Vídeo final</h3><p>FFmpeg combina cenas, narração e música em arquivo MP4.</p></div>
+</div><p class="warning">A versão atual ainda não garante que cada cena combine semanticamente com o roteiro. Revise os vídeos e use somente material sobre o qual possua autorização.</p></section>
+<section id="comecar"><span class="eyebrow">02 / Seu primeiro projeto</span><h2>Três passos para começar</h2><div class="grid">
+<div class="card"><span class="num">PASSO 01</span><h3>Prepare o computador</h3><p>Confira os programas necessários e organize as pastas.</p><p><a href="#instalacao">Ver instalação ↗</a></p></div>
+<div class="card"><span class="num">PASSO 02</span><h3>Configure a IA</h3><p>Utilize Ollama localmente ou um serviço online disponível no seu plano.</p><p><a href="#instalacao">Ver instruções ↗</a></p></div>
+<div class="card"><span class="num">PASSO 03</span><h3>Crie e confira o vídeo</h3><p>Escolha um tema, use arquivos autorizados e revise o resultado.</p><p><a href="#primeiro-video">Ver fluxo ↗</a></p></div>
+</div></section>
+<section id="instalacao"><span class="eyebrow">03 / Instalação no Windows</span><h2>Comece com o jeito fácil</h2><p>Se você usa Codex ou outro assistente com acesso permitido aos arquivos do seu computador, copie o texto abaixo para orientar a instalação. Esse processo não substitui um instalador próprio.</p>
+<div class="box"><h3>Instalação assistida</h3><button class="copy" id="copiar" type="button">Copiar instruções</button><pre id="prompt">Sou iniciante e comprei a Esteira Dark. Ajude-me a instalar e testar o sistema no Windows.
+1. Peça para eu selecionar a pasta do produto que recebi por meio do meu acesso privado.
+2. Faça backup antes de alterar qualquer arquivo.
+3. Verifique Python, FFmpeg, ffprobe, Ollama, Piper e faster-whisper. Liste o que falta.
+4. Mostre o que pretende instalar e peça autorização antes de executar instalações.
+5. Configure os arquivos locais sem divulgar senhas, tokens ou endereços privados.
+6. Teste o sistema usando um vídeo que eu tenha autorização para utilizar.
+7. Mostre onde encontrar o vídeo final e registre os erros, se houver.
+Não afirme que tudo funciona sem executar os testes.</pre></div>
+<div class="box"><h3>Instalação manual (avançada)</h3><p>Baixe primeiro as ferramentas nos sites oficiais:</p><p><a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">Python</a> · <a href="https://ffmpeg.org/download.html" target="_blank" rel="noopener noreferrer">FFmpeg</a> · <a href="https://ollama.com/download" target="_blank" rel="noopener noreferrer">Ollama</a></p><p>Confirme que os comandos <code>python --version</code>, <code>ffmpeg -version</code> e <code>ollama list</code> funcionam no terminal. A configuração completa depende da versão adquirida.</p></div>
+</section>
+<section id="primeiro-video"><span class="eyebrow">04 / Produção</span><h2>Como criar seu primeiro vídeo</h2><div class="grid">
+<div class="card"><span class="num">01</span><h3>Defina o assunto</h3><p>Escolha o tema e o conteúdo que será narrado.</p></div><div class="card"><span class="num">02</span><h3>Selecione a mídia</h3><p>Use somente imagens, clipes e músicas licenciados ou autorizados.</p></div><div class="card"><span class="num">03</span><h3>Execute e revise</h3><p>Confira roteiro, locução, sincronização, enquadramento e áudio do MP4.</p></div>
+</div></section>
+<section id="acesso"><span class="eyebrow">05 / Área do cliente</span><h2>Um login. Tudo no mesmo lugar.</h2><div class="grid"><div class="card"><h3>Seu download</h3><p>Receba a versão licenciada do produto por link protegido.</p></div><div class="card"><h3>Sua IA</h3><p>Consulte o serviço dentro das cotas do seu plano contratado.</p></div><div class="card"><h3>Atualizações e suporte</h3><p>Acesse instruções, melhorias e canais oficiais de ajuda.</p></div></div><p class="warning"><strong>Em desenvolvimento:</strong> esta é uma página de tutorial público. O login, o acesso à IA, os downloads privados e o pagamento ainda não estão integrados neste site.</p></section>
+<section id="ajuda"><span class="eyebrow">06 / Dúvidas</span><h2>Precisa de ajuda?</h2>
+<details><summary>O Ollama não responde. O que fazer?</summary><p>Confira se o programa está instalado e em execução. Teste <code>ollama list</code> no computador e não exponha a porta da IA à internet.</p></details>
+<details><summary>O sistema não encontra o FFmpeg.</summary><p>Confira a instalação, a variável PATH e execute <code>ffmpeg -version</code> e <code>ffprobe -version</code>.</p></details>
+<details><summary>Posso usar cenas de filmes?</summary><p>O produto não inclui licença sobre obras de terceiros. Trabalhe com mídia autorizada e respeite as regras de cada plataforma.</p></details>
+<details><summary>Posso acessar a IA por este site?</summary><p>Ainda não. O backend autenticado e os planos pagos precisam ser implementados para liberar esse acesso com segurança.</p></details>
+</section>
+</main>
+<footer>ESTEIRA DARK · Guia demonstrativo · Conteúdo original · Não contém o script comercial</footer>
+<script>
+document.querySelector('#copiar').addEventListener('click',async function(){
+const value=document.querySelector('#prompt').textContent;
+try{await navigator.clipboard.writeText(value);this.textContent='Copiado!'}catch(e){this.textContent='Selecione e copie o texto manualmente';}
+});
+</script></body></html>
