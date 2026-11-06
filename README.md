@@ -1,44 +1,29 @@
-# ESTEIRA DARK — site de tutorial / portal de início
+# ESTEIRA DARK — Central de tutoriais
 
-Este projeto é uma **página demonstrativa funcional** e original, inspirada no formato de guia passo a passo de `posts.curtasolucoes.com.br/entregaveis/jarvis.html`. **Não reproduz o código, as marcas nem os textos do site consultado.**
+Página pública e responsiva de orientação para compradores da **Esteira Dark**. O site é original, inspirado no formato de tutorial passo a passo do modelo compartilhado pelo proprietário, sem reproduzir o código do modelo.
 
-## Conteúdo entregue
+## Abrir o site
 
-- `index.html`: página única com apresentação, tutorial, configuração de IA, primeiro vídeo, problemas comuns e demonstração da área do assinante.
-- `assets/styles.css`: layout responsivo em cores dark/azul/violeta.
-- `assets/app.js`: navegação, abas, botões de copiar, progresso de etapas salvo localmente, perguntas expansíveis e aviso de login ainda não configurado.
-- `ROADMAP-SEGURANCA.md`: como transformar a demonstração em portal comercial, sem expor o script pago.
-- `INSTRUCOES-CODEX.md`: briefing para implementar login, pagamentos e acesso protegido.
+- `index.html` — site demonstrativo independente, contendo HTML, CSS e JavaScript no próprio arquivo.
+- Após ativar GitHub Pages: `https://kelvenkennedy.github.io/esteira-dark-tutoriais/`
 
-## Testar agora
+## Publicação pelo GitHub Pages
 
-Abra `index.html` no navegador. Não há dependências, bibliotecas externas nem conexão necessária. As interações básicas funcionam localmente.
+1. Abra **Settings → Pages** neste repositório.
+2. Em **Build and deployment**, escolha **Deploy from a branch**.
+3. Selecione **main** e **/(root)**, depois **Save**.
+4. Aguarde o status de publicação e abra o endereço informado na página de configuração.
 
-Opcionalmente, rode em servidor local:
+## Importante
 
-```bash
-cd esteira-dark-site
-python -m http.server 8080
-```
+Este repositório é **público** e contém apenas demonstração/tutorial. Ele **não contém** o código Python comercial vendido, instalador, chave de API ou credenciais da IA.
 
-Acesse `http://127.0.0.1:8080`.
+Login, download privado, cobrança e IA integrada **ainda não estão disponíveis** nesta página. Devem ser implementados num backend autenticado e testado, nunca somente em JavaScript do navegador.
 
-## Colocar no GitHub Pages
+O script v2 original seleciona cenas a partir da detecção de cortes e não garante correspondência semântica entre cenas e narração. Não prometa vídeos automaticamente coerentes sem validar uma versão melhorada.
 
-1. Crie um repositório **somente com estes arquivos públicos**.
-2. Envie a pasta do site para a raiz do repositório.
-3. No GitHub: **Settings → Pages → Build and deployment → Deploy from a branch → main / (root)**.
-4. Publique e abra o endereço indicado na seção Pages.
-5. Mantenha o script vendido, tokens, configurações privadas e links definitivos de download fora deste repositório e fora do site público.
+O usuário deve usar mídias com direitos ou autorizações adequados; a compra da automação não concede licença sobre filmes, trilhas ou outros conteúdos de terceiros.
 
-### Antes de vender
+## Próximos passos
 
-A tela de área do aluno é um protótipo. **Ela não autentica nem autoriza usuários**. O botão abre um aviso em vez de fingir um login ativo. Leia o roadmap para conexão com sua aplicação autenticada.
-
-## Limites do script fornecido
-
-O script ESTEiRA DARK v2 enviado na conversa tem paths de exemplo específicos do computador original, usa endereço IP local para Ollama e tem seleção de cenas baseada em cortes aleatórios: não há alinhamento semântico confiável entre roteiro e imagem. O portal explica esses pontos sem anunciar recursos inexistentes.
-
-## Propriedade e conteúdo
-
-A interface deste projeto é original. O material de referência visual pertence a seu criador. O produto não concede licenças sobre cenas, filmes, música e outros materiais de terceiros; distribua somente o que tem direito de usar.
+Consultar [ROADMAP-SEGURANCA.md](ROADMAP-SEGURANCA.md) para a comercialização segura. As instruções de instalação para leigos estarão no próprio site; a configuração final deverá refletir uma versão do software efetivamente testada.
